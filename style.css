@@ -1,0 +1,253 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif; }
+
+h1, h2, h4, nav li a {
+  font-family: "Headland One", Georgia, serif; }
+
+h1 {
+  font-size: 48px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  color: #002fe40; }
+
+h2 {
+  margin-top: 80px;
+  font-size: 28px;
+}
+
+.h2contato {
+  margin-top: 80px;
+  font-size: 28px;
+  color: white;
+}
+
+.active{
+    color: #030d18;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 10px; }
+
+.why-list {
+  margin-top: 0px; }
+  .why-list li {
+    line-height: 28px; }
+
+a {
+  cursor: pointer; }
+
+ul {
+  list-style: none; }
+
+.nav-container {
+  background-color: #030d18;
+  /*background-color: rgba(18, 65, 28, 0.4);*/
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  z-index: 2;
+}
+
+
+nav {
+  text-align: right;
+  width: 700px;
+  margin: 0px auto;
+    margin-right: 20px;
+}
+  nav ul {
+    padding: 0px; }
+  nav li {
+    width: 15%;
+    display: inline-block; }
+    nav li a {
+      font-size: 15px;
+      color: white; }
+    nav li a.active {
+        color: #aaaaaa;
+        }
+  @media screen and (max-width: 640px) {
+    nav {
+      width: 90%; }
+      nav li a {
+        font-size: 18px; } }
+
+section {
+  padding-top: 40px;
+  height: 795px;
+  width: 100%;
+  background-color: #f0eee1;
+}
+  section .content {
+    margin: 0px auto;
+    max-width: 840px; }
+    @media screen and (max-width: 840px) {
+      section .content {
+        width: 90%; } }
+    section .content a {
+      color: #002e40; }
+
+
+
+.bottom-link {
+  margin-top: 80px;
+  font-style: italic; }
+
+.gist-meta {
+  display: none; }
+
+.file-data {
+  font-size: 14px; }
+
+
+
+
+.backgroudservico{
+    /*background-color: #ADB6B5;*/
+    background-color: #0B325B;
+}
+
+.backgroudportfolio{
+    /*background-color: #DCDCD4;*/
+    background-color: #EB474A;
+}
+
+.backgroudcontato{
+    background-color: #363636;
+}
+
+.backgroudhabilidades{
+    /*background-color: #814374;*/
+    background-color: #F1E0D0;
+}
+
+
+.logo{
+    float: left;
+    text-align: left;
+    width: 700px;
+    margin: 0px auto;
+    margin-left: 20px;
+}
+
+.logoul{
+    color: #656565;
+    font-family:sans-serif;
+    font-size: 17px;
+}
+
+#divTexto {
+    width: 420px;
+    float:left; /* add this */
+   /* border: 1px solid red; */
+}
+
+#divTexto2 {
+    width: 420px;
+    float:right;
+}
+
+#divEspaco {
+    width: 300px;
+    float:right;
+    z-index: 1;
+     /* add this */
+   /* border: 1px solid red; */
+}
+#divSkills {
+   /* border: 1px solid green;*/
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+.circular {
+	overflow: hidden;
+    float:left;
+    width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(images/perfil.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
